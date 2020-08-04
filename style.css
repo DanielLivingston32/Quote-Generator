@@ -94,7 +94,7 @@ button:active {
   border-top: 16px solid #3498db; /* Blue */
   border-right: 16px solid blueviolet;
   border-bottom: 16px solid gold;
-  border-left: 16px solid #00ff00;
+  border-left: 16px solid #48fa48;
   border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -108,11 +108,6 @@ button:active {
   100% {
     transform: rotate(360deg);
   }
-}
-
-/* Hide div class*/
-.hidediv {
-  display: none;
 }
 
 /* Media query size: Tablet or smaller */

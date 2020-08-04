@@ -3,17 +3,17 @@ const quoteText = document.getElementById("quote");
 const authorText = document.getElementById("author");
 const newQuoteBtn = document.getElementById("new-quote");
 const twitterBtn = document.getElementById("twitter");
-const preloader = document.getElementsByClassName("loader")[0];
+const loader = document.getElementById("loader");
 
-// Loader Run Function:
+// Loader Run Function: [Used when request is made]
 function loaderRun() {
-  preloader.classList.remove("hidediv");
+  loader.hidden = false;
   quoteContainer.hidden = true;
 }
 
 // Loader Stop Function: [Used when request is complete]
 function loaderStop() {
-  preloader.classList.add("hidediv");
+  loader.hidden = true;
   quoteContainer.hidden = false;
 }
 
